@@ -10,6 +10,7 @@
     "smoke-test": "node --enable-source-maps src/bin/smoke_test.js",
     "migrate": "node --enable-source-maps src/bin/migrate.js",
     "start:prod": "node --enable-source-maps src/server.js",
+    "start": "node src/server.js",
     "wait-on-health": "wait-on http://localhost:5000/health --timeout 15000",
     "seed-admin-store": "node --enable-source-maps src/bin/seed_admin_store.js"
   },
