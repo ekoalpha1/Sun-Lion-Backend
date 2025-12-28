@@ -1,0 +1,35 @@
+{
+  "name": "sunlion-backend-utils",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --enable-source-maps src/server.js",
+    "webhook-dev": "node --enable-source-maps src/webhookExample.js",
+    "create-user": "node --enable-source-maps src/bin/create_user.js",
+    "smoke-test": "node --enable-source-maps src/bin/smoke_test.js",
+    "migrate": "node --enable-source-maps src/bin/migrate.js",
+    "start:prod": "node --enable-source-maps src/server.js",
+    "wait-on-health": "wait-on http://localhost:5000/health --timeout 15000",
+    "seed-admin-store": "node --enable-source-maps src/bin/seed_admin_store.js"
+  },
+  "dependencies": {
+    "axios": "1.4.0",
+    "dotenv": "16.1.4",
+    "express": "4.18.2",
+    "morgan": "1.10.0",
+    "cors": "2.8.5",
+    "jsonwebtoken": "9.0.0",
+    "express-rate-limit": "6.8.0",
+    "express-validator": "7.0.1",
+    "bcryptjs": "2.4.3",
+    "cookie-parser": "1.4.6",
+    "uuid": "9.0.0",
+    "pg": "^8.10.0",
+    "mysql2": "^3.3.0"
+  }
+  ,
+  "devDependencies": {
+    "wait-on": "^7.0.1"
+  }
+}

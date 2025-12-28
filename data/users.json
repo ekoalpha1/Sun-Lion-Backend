@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "u_1766804379032",
+      "username": "admin@local",
+      "passwordHash": "$2a$10$A/GVhaTZAxu4qb0ADZZqg.0OsixCOHKHvX7kWToLMNWE4lAHb1UOS",
+      "roles": [
+        "admin"
+      ],
+      "isAdmin": true,
+      "permissions": [],
+      "refreshTokens": [
+        {
+          "id": "3d3cd7fe-79d2-41f6-a72e-ffa65ad29879",
+          "createdAt": "2025-12-27T02:59:48.272Z"
+        },
+        {
+          "id": "86e20971-4e22-4726-95bd-95c562c964df",
+          "createdAt": "2025-12-27T03:55:45.402Z"
+        }
+      ]
+    }
+  ]
+}
